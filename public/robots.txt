@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Allow crawling of public pages
+Allow: /
+Allow: /login
+Allow: /signup
+
+# Disallow crawling of user-specific content
+Disallow: /dashboard
+Disallow: /viewer/*
+Disallow: /models/*
+Disallow: /projects/*
+Disallow: /admin/*
+Disallow: /api/*
+
+Sitemap: https://your-domain.com/sitemap.xml

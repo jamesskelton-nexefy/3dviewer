@@ -1,0 +1,14 @@
+node_modules
+dist
+build
+coverage
+.git
+.next
+.nuxt
+.output
+.vscode
+*.min.js
+*.min.css
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
